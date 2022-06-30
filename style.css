@@ -1,0 +1,129 @@
+.layout {
+    display: grid; 
+    grid-template-columns: 37.5% 25% 37.5%; 
+    grid-template-rows: 75% 25%; 
+    grid-template-areas: 
+      "bL1 m1 bL2"
+      "bL3 bL4 bL5"
+      ; 
+      height: 100vh;
+  }
+
+.bL1 {
+    grid-area: bL1;
+   
+}
+.bL2 {
+
+    grid-area: bL2;
+}
+.bL3 {
+    grid-area: bL3;
+}
+.bL4 {
+    grid-area: bL4;
+}
+.bL5 {
+    grid-area: bL5;
+}
+.m1 {
+    grid-area: m1;
+ 
+}
+.m2 {
+    display: grid; 
+    grid-template-columns: 100%; 
+    grid-template-rows: 8.9% 10.1% 27.3% 12% 26.6% 15.3%; 
+    grid-template-areas: 
+      "h"
+      "Si"
+      "EP"
+      "Si2"
+      "In"
+      "CA"; 
+  }
+
+  .h{
+    grid-area: h;
+   background-image: url(https://logo-base.com/logo/amazon-logo-512x512.png);
+   border-bottom: 2px solid lightgrey;
+  }
+   
+
+  .Si{
+    grid-area: Si;
+    border-right: 2px solid lightgrey;
+    padding-right: 20px;
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+    margin-bottom: -10px;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
+  .EP{
+    grid-area: EP;
+    border-right: 2px solid lightgrey;
+    padding-right: 20px;
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+  }
+
+  .Si2{
+    grid-area: Si2;
+    padding-right: 0px;
+    padding-left: 1px;
+    padding-top: 15px;
+  }
+
+  .In{
+    grid-area: In;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+  }
+
+  .CA{
+    grid-area: CA;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 60px;
+    border-right: 2px solid lightgrey;
+    padding-right: 20px;
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+  }
+
+.btn{
+    background-color: #f0c14b;
+
+}
+
+.btn1{
+    background-color: grey;
+}
+
+#pho{
+    width:30%;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    
+}
+
+#keep{
+    margin-left: 30px;
+}
+
+em{
+    color: blue;
+}
+
+#new{
+    font-size: small;
+    padding-left:160px;
+    padding-bottom: 20px;
+}
+
+#MR{
+  padding-left: 190px;
+}
